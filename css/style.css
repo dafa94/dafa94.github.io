@@ -1,0 +1,237 @@
+
+.lw {
+  font-family: "Avenir Next Heavy","Arial Black Regular","Stone Sans ITC TT";
+   font-size: 90px;
+   opacity: 0.6;
+  text-align: center;
+  background-color: white;
+
+background-blend-mode: multiply;
+
+  line-height: 1;
+}
+.lw:hover{
+  font-family: "Avenir Next Heavy";
+  opacity: 0.6;
+  background-color: #000000;
+  color: #FFFFFF;
+background-blend-mode: multiply;
+
+}
+.keep {
+  font-family: "Avenir Next medium";
+   font-size: 30px;
+  text-align: center;
+
+  opacity: 0.6;
+ text-align: center;
+ background-color: white;
+
+background-blend-mode: multiply;
+}
+
+.normParagraph {
+  font-family: "Avenir Next Ultra Light";
+   font-size: 20px;
+  line-height: 1;
+  text-align: center;
+
+  opacity: 0.6;
+ text-align: center;
+ background-color: white;
+
+background-blend-mode: multiply;
+
+}
+
+
+.upper {
+  font-family: "Avenir Next Ultra Light";
+   font-size: 20px;
+  line-height: 1;
+  text-align: center;
+
+  opacity: 0.6;
+ text-align: center;
+ background-color: white;
+
+background-blend-mode: multiply;
+}
+.Top {
+  font-family: "Avenir Next Ultra Light";
+   font-size:25px;
+  line-height: 1;
+  text-align: center;
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+  color: red;
+
+
+}
+li{
+      display: inline;
+}
+li a {
+    width: 60px;
+  text-decoration:none;
+
+  opacity: 0.6;
+ background-color: white;
+background-blend-mode: multiply;
+}
+li a:hover {
+    font-family: "Avenir Next medium";
+
+    opacity: 0.6;
+    background-color: red;
+    color: #FFFFFF;
+  background-blend-mode: multiply;
+
+}
+
+.email{
+  text-decoration:none;
+  color: black;
+}
+.email:hover{
+  text-decoration:none;
+  background-color: blue;
+  color: white;
+}
+
+p:hover{
+  opacity: 0.6;
+  background-color: #000000;
+  color: #FFFFFF;
+background-blend-mode: multiply;
+}
+
+
+
+body{
+background-blend-mode: screen, difference, lighten;
+}
+
+.pUp{
+  font-family: "Avenir Next Ultra Light";
+   font-size:25px;
+  line-height: 1;
+  text-align: left;
+   list-style-type: nonde;
+    margin: 0;
+    padding: 0;
+  color: red;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    background-color: black;
+
+    opacity: 0.8;
+    background-blend-mode: multiply;
+}
+
+
+
+
+/* Add a hover effect if you want */
+.fa:hover {
+    opacity: 0.7;
+  background-blend-mode: multiply;
+}
+.fa {
+  padding: 10px;
+  font-size: 100px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+    display: inline;
+  margin: 5px 2px;
+
+  text-align: center;
+   list-style-type: none;
+}
+
+.store-badges a {
+    display: inline-block;
+    text-decoration: none
+}
+
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+  background: #125688;
+  background: -webkit-linear-gradient(0deg, orange, purple); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(0deg, orange, purple); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(0deg, orange, purple); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(0deg, orange, purple); /* Standard syntax */
+  color: white;
+}
+
+
+.faq {
+  font-family: "Avenir Next Medium";
+   font-size: 20px;
+  line-height: 1;
+  text-align: left;
+
+color:black;
+  opacity: 0.6;
+ text-align: left;
+ background-color: white;
+
+background-blend-mode: multiply;
+
+}
+
+.news {
+  font-family: "Avenir Next Demi Bold";
+   font-size: 22px;
+  line-height: 1;
+  text-align: left;
+
+color:black;
+  opacity: 0.6;
+ text-align: left;
+ background-color: Blue;
+
+background-blend-mode: multiply;
+
+}
+
+.faq:hover{
+  font-family: "Avenir Next Medium";
+
+  opacity: 0.6;
+  background-color: blue;
+  color: white;
+background-blend-mode: multiply;
+}
+
+.news:hover{
+  font-family: "Avenir Next Demi Bold";
+
+  opacity: 0.6;
+  background-color: Red;
+  color: white;
+background-blend-mode: multiply;
+}

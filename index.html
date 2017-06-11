@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Shuffle Trance</title>
+
+       <script>
+    function clickCounter() {
+    if(typeof(Storage) !== "undefined") {
+        if (localStorage.clickcount) {
+            localStorage.clickcount = Number(localStorage.clickcount)+1;
+        } else {
+            localStorage.clickcount = 1;
+        }
+        document.getElementById("result").innerHTML = "You have clicked the button " + localStorage.clickcount + " time(s).";
+    } else {
+        document.getElementById("result").innerHTML = "Sorry, your browser does not support web storage...";
+    }
+}
+</script>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body onload="bg1()">
+<!-- Start your code here -->
+<style type="text/css">
+
+</style>
+
+  <div class = "Top"><ul>
+     <li>--</li>
+    <li><a href="index.html">Home</a></li>
+   <li>--</li>
+    <li><a href="news.html">News</a></li>
+     <li>--</li>
+    <li><a href="contact.html">Contact</a></li>
+     <li>--</li>
+    <li><a href="faq.html">FAQ</a></li>
+     <li>--</li>
+    <li><a href="about.html">About</a></li>
+     <li>--</li>
+    </ul>
+
+  </div>
+
+<div class="tit"><p class="lw">Shuffle Trance</p></div>
+<p class="keep">Keep Bouncing!</p>
+
+  <div id="result"></div>
+<p class = "normParagraph">A simple game with billions of possibilities</p>
+
+<!-- End your code here -->
+
+  <!--div><p class = "upper">Available in the <a href="http://itunes.com/apps/shuffletrance">App Store</a> and the <a href="contact.asp">Mac App Store</a> <a href="https://itunes.apple.com/us/app/bogeys-land/id1161005888?mt=8">Bogey's Land</a></p></div!-->
+<!--1214609275-->
+
+    <!--p><button onclick="bg1()" type="button">Click me!</button></p>
+<script type="text/javascript" src="js/script.js"></script-->
+<div class="Top">
+<iframe src="http://www.youtube.com/embed/W7qWa52k-nE"
+ width="560" height="315" frameborder="0" allowfullscreen></iframe>
+</div>
+
+<div class="Top">
+<a class="store-itunes" href="https://itunes.apple.com/app/id1214609275">
+    <img src="storeBadges/Download_on_the_App_Store_Badge_US-UK_135x40.svg" alt="Download on the App Store" style="transform: translateX(0px) translateY(0px);">
+  </a>
+  <a class="mac-appstore" href="https://itunes.apple.com/app/id1244459088">
+    <img src="storeBadges/Download_on_the_Mac_App_Store_Badge_US-UK_165x40.svg" alt="Download on the App Store" style="transform: translateX(0px) translateY(0px);">
+  </a>
+</div>
+
+<br>
+<br>
+<br>
+<br>
+<p class = "normParagraph">Follow on social media for news and tips</p>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<!-- Add font awesome icons -->
+<div class="Top">
+<a href="https://www.facebook.com/Shuffle-Trance-217569392084749/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/shuffle_trance" class="fa fa-twitter"></a>
+<a href="https://www.instagram.com/shuffletrance/" class="fa fa-instagram"></a>
+</div>
+</body>
+</html>
