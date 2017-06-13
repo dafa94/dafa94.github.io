@@ -43,6 +43,10 @@ background-blend-mode: multiply;
 background-blend-mode: multiply;
 
 }
+img:hover{
+  -webkit-filter: invert(1);
+     filter: invert(1);
+}
 
 
 .upper {
