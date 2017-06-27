@@ -188,7 +188,7 @@ switch (num2) {
   break;
 }
 
-setTimeout(bg1,10000);
+setTimeout(bg1,15000);
 }
 /*  if(typeof(Storage) !== "undefined") {
       if (localStorage.clickcount) {
